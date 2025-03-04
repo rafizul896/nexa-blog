@@ -3,6 +3,7 @@ import Image from "next/image";
 import { AiFillLike } from "react-icons/ai";
 import { FaCalendar } from "react-icons/fa";
 
+
 const BlogDetailsCard = ({ blog }: { blog: Blog }) => {
   return (
     <div className="w-2/3 bg-white shadow-lg rounded-lg mx-auto p-6">
