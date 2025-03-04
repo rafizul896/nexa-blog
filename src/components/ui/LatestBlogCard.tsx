@@ -22,7 +22,7 @@ const LatestBlogCard = ({ blog }: { blog: Blog }) => {
       <div className="p-5">
         <p className="flex items-center justify-center text-teal-600 bg-teal-100 w-fit px-3 py-1 rounded-full">
           <FaCalendar className="mr-2" />
-          {blog.publish_date}
+          {blog?.publish_date}
         </p>
         <h2 className="text-xl font-semibold mt-3 mb-2">{blog.title}</h2>
         <p className="text-gray-400 mb-4">
